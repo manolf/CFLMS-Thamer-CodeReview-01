@@ -11,10 +11,12 @@ h1{
 	font-size: 56px;
 }
 
+
 #wrapper {
-	/*margin: 0 auto;*/
+	margin: 0 auto;
     width: 1000px;
-}
+} 
+
 
 header{
 	background-color: lightgrey;
@@ -23,15 +25,6 @@ header{
 
 #logo1{
 	padding: 20px 0 20px 200px;
-}
-
-
-span{
-
-	padding-left: 100px;
-	text-align: center;
-	/*alignment is not working*/
-	vertical-align: text-top;
 }
 
 nav{
@@ -54,58 +47,40 @@ nav ul li{
 	width: 1000px;
 	float: left;
 	text-align: center;
-	padding-bottom: 30px;
+	padding: 0 0 0 0px;
 	/*background-color: lime;*/
 }
 
-#row2{
-	float: left;
-	width: 1000px;
-	padding-bottom: 30px;
-	/*background-color: red;*/
-} 
 
-/*picture phone: needs resizing*/
 #col1{
 	float: left;
-	width: 400px;
+	width: 470px;
 	text-align: center;
-	padding: 0 0 0 50px;
+	padding: 0 0 0 30px;
 	/*background-color: orange;*/
 }
 
-/*padding/margin of escooter is not in line with samsung*/
-
 #col2{
-	float left:
-	width: 400px;
+	float :left;
+	width: 470px;
 	text-align: center;
 	padding: 0 0 0 0px;
-	/*	background-color: yellow;*/
+	/*background-color: yellow;*/
 }
 
-
-
-p{
-	/*font size /weight not reacting*/
-	font-style: 56px;
-	color: black;
-	font-weight: bold;
-
-}
 
 footer{
 	float:left;
 	background-color: lightgrey;
 	text-align: center;
-	padding: 10px 0;
+	padding: 15px 0;
 	font-size: 10pt;
 	width: 1000px;
 }
 
-figcaption{
-	font-size: 16pt;
-	font-weight: bold;
+
+.content  p{
+	font-size: 15pt;
 }
 
 
