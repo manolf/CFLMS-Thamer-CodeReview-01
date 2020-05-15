@@ -1,0 +1,110 @@
+*{
+	font-family: Arial;
+}
+
+h1{
+	text-align: center;
+	font-size: 56px;
+}
+
+#wrapper {
+	/*margin: 0 auto;*/
+    width: 1000px;
+}
+
+header{
+	background-color: lightgrey;
+	font-size: 16pt;
+}
+
+#logo1{
+	display: inline-block;
+	/*alignment: right;*/
+	padding: 20px 0 20px 180px;
+}
+
+span{
+
+	padding-left: 100px;
+	text-align: center;
+	/*alignment is not working*/
+	vertical-align: text-top;
+}
+
+nav{
+	background-color: #bf3f4c;
+	text-align: right;
+	padding: 5px 40px 5px 10px;
+
+}
+
+nav ul li{
+	list-style: none;
+	display: inline;
+	color: white;
+	font-style: bold;
+	font-size: 22px;
+	padding-right: 20px;
+}
+
+#row1{
+	width: 1000px;
+	float: left;
+	text-align: center;
+	padding-bottom: 30px;
+	/*background-color: lime;*/
+}
+
+#row2{
+	float: left;
+	width: 1000px;
+	padding-bottom: 30px;
+	/*background-color: red;*/
+} 
+
+/*picture phone: needs resizing*/
+#col1{
+	float: left;
+	width: 400px;
+	text-align: center;
+	padding: 0 0 0 50px;
+	/*background-color: orange;*/
+}
+
+/*padding/margin of escooter is not in line with samsung*/
+
+#col2{
+	float left:
+	width: 400px;
+	text-align: center;
+	padding: 0 0 0 0px;
+	/*	background-color: yellow;*/
+}
+
+
+
+p{
+	/*font size /weight not reacting*/
+	font-style: 56px;
+	color: black;
+	font-weight: bold;
+
+}
+
+footer{
+	float:left;
+	background-color: lightgrey;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 10pt;
+	width: 1000px;
+}
+
+figcaption{
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+
+
+
