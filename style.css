@@ -2,6 +2,10 @@
 	font-family: Arial;
 }
 
+#invisible{
+	color: lightgrey;
+}
+
 h1{
 	text-align: center;
 	font-size: 56px;
@@ -18,10 +22,9 @@ header{
 }
 
 #logo1{
-	display: inline-block;
-	/*alignment: right;*/
-	padding: 20px 0 20px 180px;
+	padding: 20px 0 20px 200px;
 }
+
 
 span{
 
