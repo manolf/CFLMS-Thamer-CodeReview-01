@@ -2,6 +2,7 @@
 	font-family: Arial;
 }
 
+/*for getting the padding to the left*/
 #invisible{
 	color: lightgrey;
 }
@@ -11,11 +12,11 @@ h1{
 	font-size: 56px;
 }
 
-
+/*without wrapper do make it somehow respondive/*
 #wrapper {
 	margin: 0 auto;
     width: 1000px;
-} 
+} */
 
 
 header{
@@ -24,7 +25,7 @@ header{
 }
 
 #logo1{
-	padding: 20px 0 20px 200px;
+	padding: 20px 0 20px 150px;
 }
 
 nav{
@@ -70,18 +71,53 @@ nav ul li{
 
 
 footer{
-	float:left;
+	float: left;
 	background-color: lightgrey;
 	text-align: center;
 	padding: 15px 0;
 	font-size: 10pt;
-	width: 1000px;
+	width: 100%;
+
 }
 
 
 .content  p{
 	font-size: 15pt;
 }
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* for contact.html*/
+
+.content a, .contact a{
+	color: blue;
+	text-decoration: underline;
+}
+
+/* for about.html*/
+#tbhobbies th {
+	background-color: lightgrey;
+	border: 1px solid lightgrey;
+}
+
+/*for blog.html*/
+dl, dt, dd{
+	font-size: 15pt;
+}
+
+
+/*for contact.html*/
+.contact {
+	font-size: 15pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+
+
 
 
 
